@@ -149,32 +149,3 @@ class Find_the_difference_of_timezone_with_USA_Form(ModelForm):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
