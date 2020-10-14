@@ -14,13 +14,10 @@ from django.db.models import Q
 class DayQuerySet(models.query.QuerySet):
 
 	def search(self, query):
-		lookup = (
-				 Q(date_time_field__icontains=query) )
-
+		lookup = ( Q(date_time_field__icontains=query) )
 
 		return self.filter(lookup)
 				
-
 
 
 
@@ -130,24 +127,6 @@ class Day(models.Model):
 
 
 	objects = DayModelManager() 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
