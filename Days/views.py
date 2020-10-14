@@ -166,7 +166,6 @@ def view_years_with_equal_sum_of_attributes_to_a_value(request):
 
 def view_leap_years_in_a_decade(request):
 
-	# pass
 
 	if request.method == 'POST':
 
