@@ -45,6 +45,10 @@ class Day(models.Model):
 
 	first_date = models.DateField(auto_now=False, auto_now_add=False, default=timezone.now())
 	second_date = models.DateField(auto_now=False, auto_now_add=False, default=timezone.now())
+	
+	one_date_res = models.DateTimeField(auto_now=False, auto_now_add=False, default=datetime.now)
+	two_date_res = models.DateTimeField(auto_now=False, auto_now_add=False, default=datetime.now)
+	
 	days_till_a_date_result = models.IntegerField(default=0)
 
 
