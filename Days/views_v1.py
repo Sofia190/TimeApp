@@ -11,7 +11,6 @@ from django.utils import timezone
 # from datetime import timedelta, datetime, date  
 
 
-# from dateutil.relativedelta import relativedelta
 
 
 from.forms  import (DaysTillaDateForm, YearsWithAttributesEqualToaValueForm,
