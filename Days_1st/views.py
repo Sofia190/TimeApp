@@ -345,9 +345,6 @@ def view_leap_years_in_a_century(request):
 
 
 
-   	
-
-
 
 def view_sum_of_attributes_of_nth_day_in_a_year(request):
 
@@ -536,6 +533,7 @@ def how_many_months_and_days_till_the_next_spring_equinox(request):
 
     
 
+	
 
 
 def how_many_months_and_days_till_the_next_autumn_equinox(request):
@@ -910,7 +908,6 @@ def find_equivalent_with_timezone(request):
 
     
 
-	
 
 
 
@@ -1041,8 +1038,6 @@ def find_difference_of_timezone_from_UTC(request):
     
 
 	
-
-
 
 
 def find_difference_between_two_timezones(request):
@@ -1179,8 +1174,6 @@ def find_difference_between_two_timezones(request):
 					obj.inTimeDelta_hours_to_search = 11
 				elif int(latitude_longitude_to_search[1]) in range(165, 180):
 					obj.inTimeDelta_hours_to_search = 12
-
-
 
 
 
