@@ -165,8 +165,6 @@ class Day(models.Model):
 
 	inTimeDelta_hours_res = models.IntegerField(default=0)
 
-	# diff_in_hours_with_local_time = models.IntegerField(default=0)
-
 
 	used_in_calculations_by_user = models.BooleanField(default=False)
 
