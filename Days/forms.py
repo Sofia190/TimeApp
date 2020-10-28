@@ -7,6 +7,7 @@ from .models import Day
 
 
 
+
 class DaysTillaDateForm(ModelForm):
 
 
@@ -17,6 +18,7 @@ class DaysTillaDateForm(ModelForm):
 		fields = ['first_date', 'second_date']
 
 
+		
 
 class YearsWithAttributesEqualToaValueForm(ModelForm):
 
@@ -29,6 +31,7 @@ class YearsWithAttributesEqualToaValueForm(ModelForm):
 
 
 
+		
 
 class BisectYearsinaDecadeForm(ModelForm):
 
@@ -54,6 +57,7 @@ class BisectYearsinaCenturyForm(ModelForm):
 
 
 
+		
 
 class AttributesofnthDayForm(ModelForm):
 
@@ -104,7 +108,6 @@ class MonthsandDaystillthenextAutumnEquinoxForm(ModelForm):
 
 
 
-
 class PeriodsbetweenDateswithTotalLunarEclipseForm(ModelForm):
 
 
@@ -126,7 +129,6 @@ class Find_the_equivalent_of_timezone_with_USA_Form(ModelForm):
 		model = Day
 
 		fields = ['inTimeDelta_hours', "inTZObject_name", "datetime_instance_var",]
-
 
 
 
