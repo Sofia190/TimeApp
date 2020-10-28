@@ -185,7 +185,6 @@ def view_years_with_equal_sum_of_attributes_to_a_value(request):
 
 
 
-
 def view_leap_years_in_a_decade(request):
 
 	if request.method == 'POST':
@@ -409,6 +408,7 @@ def view_sum_of_attributes_of_nth_day_in_a_year(request):
 
 
 
+
 def view_how_many_bisect_years_in_the_last_nth_centuries(request):
 
 
@@ -582,7 +582,6 @@ def how_many_months_and_days_till_the_next_autumn_equinox(request):
 
 
 
-
 def what_period_between_years_with_total_lunar_eclipse(request):
 
 
@@ -697,7 +696,6 @@ def what_period_between_years_with_total_lunar_eclipse(request):
 	template_path = "Days/periods-between-dates-with-total-lunar-eclipse.html"
 
 	return render(request, template_path, {'form': form, "obj":obj, })
-
 
 
 
@@ -839,12 +837,10 @@ def find_the_difference_of_timezone_with_USA(request):
 
 	
 
-
-
+	
 def display_calculators_page_view(request):
 
 	return render(request, 'Days/page-with-calculators.html')
-
 
 
 
@@ -907,7 +903,6 @@ def find_equivalent_with_timezone(request):
 	return render(request, template_path, {'form': form, "obj":obj, })
 
     
-
 
 
 
@@ -1202,26 +1197,6 @@ def find_difference_between_two_timezones(request):
 	return render(request, template_path, {'form': form, "obj":obj, })
 
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
