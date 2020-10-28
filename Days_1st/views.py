@@ -17,7 +17,7 @@ from geopy.geocoders import Nominatim
 
 
 
-from.forms  import (DaysTillaDateForm, YearsWithAttributesEqualToaValueForm,
+from .forms  import (DaysTillaDateForm, YearsWithAttributesEqualToaValueForm,
 
 BisectYearsinaDecadeForm, BisectYearsinaCenturyForm,
 
