@@ -11,6 +11,7 @@ from django.db.models import Q
 
 
 
+
 class DayQuerySet(models.query.QuerySet):
 
 	def search(self, query):
@@ -18,8 +19,6 @@ class DayQuerySet(models.query.QuerySet):
 
 		return self.filter(lookup)
 				
-
-
 
 
 
