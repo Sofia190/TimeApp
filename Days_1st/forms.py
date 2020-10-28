@@ -101,8 +101,7 @@ class MonthsandDaystillthenextAutumnEquinoxForm(ModelForm):
 		fields = ['first_date_next_autumn_equinox', "second_date_next_autumn_equinox"]
 
 
-
-
+		
 
 
 class PeriodsbetweenDateswithTotalLunarEclipseForm(ModelForm):
@@ -131,7 +130,6 @@ class Find_the_equivalent_of_timezone_with_USA_Form(ModelForm):
 
 
 
-
 class Find_the_difference_of_timezone_with_USA_Form(ModelForm):
 
 
@@ -143,6 +141,7 @@ class Find_the_difference_of_timezone_with_USA_Form(ModelForm):
 
 
 
+		
 
 class Find_equivalent_with_timezone_Form(ModelForm):
 
@@ -158,7 +157,6 @@ class Find_equivalent_with_timezone_Form(ModelForm):
 	# 	inTimeDelta_hours = self.cleaned_data.get('inTimeDelta_hours')
 
 	# 	return inTimeDelta_hours
-
 
 
 
@@ -186,30 +184,3 @@ class find_difference_between_two_timezones_Form(ModelForm):
 
 
 	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
