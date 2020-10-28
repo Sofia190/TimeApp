@@ -50,10 +50,6 @@ class DayQuerySet(models.query.QuerySet):
 				
 
 
-
-
-
-
 class DayModelManager(models.Manager):
 
 
@@ -68,6 +64,8 @@ class DayModelManager(models.Manager):
 			return self.get_queryset().search(query)
 
 
+		
+		
 
 
 class Day(models.Model):
@@ -125,7 +123,6 @@ class Day(models.Model):
 	days_until_next_spring_equinox = models.IntegerField(default=0)
 
 
-
 	first_date_next_autumn_equinox = models.DateField(auto_now=False, auto_now_add=False, default=timezone.now())
 	second_date_next_autumn_equinox = models.DateField(auto_now=False, auto_now_add=False, default=date(2021,9,22))
 	months_until_next_autumn_equinox = models.IntegerField(default=0)
@@ -173,23 +170,6 @@ class Day(models.Model):
 
 
 	objects = DayModelManager() 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
